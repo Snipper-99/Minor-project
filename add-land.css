@@ -1,0 +1,183 @@
+/* -------------------------
+   Basic
+------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ddc9f6;
+    color: #1e033a;
+}
+
+
+/* -------------------------
+   Header
+------------------------- */
+
+.header {
+    height: 80px;
+
+    background-color:white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    padding: 0 40px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    color: #083826;
+    font-size: 40px;
+}
+
+.header a {
+    color: #062117;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+/* -------------------------
+   Container
+------------------------- */
+
+.container {
+    width: 600px;
+
+    margin: 40px auto;
+
+    background-color: rgb(252, 226, 226);
+
+    padding: 35px;
+
+    border-radius: 50px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.container h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #08271c;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+
+/* -------------------------
+   Form
+------------------------- */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 20px;
+
+    margin-bottom: 7px;
+
+    margin-top: 18px;
+}
+
+input,
+select {
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #cfd8d4;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+
+    border-color: #176044;
+}
+
+
+/* -------------------------
+   Button
+------------------------- */
+
+button {
+    margin-top: 30px;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background-color: #3a2e66;
+
+    color: white;
+
+    font-size: 18px;
+
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+button:hover {
+    background-color: #701766;
+}
+
+
+/* -------------------------
+   Result
+------------------------- */
+
+#result {
+    margin-top: 30px;
+
+    padding: 25px;
+
+    background-color: #dbdbf6;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+#result h2 {
+    color: #131e19;
+
+    font-size: 22px;
+
+    margin-bottom: 15px;
+}
+
+#result p {
+    margin-bottom: 8px;
+}
+
+#result h3 {
+    font-size: 28px;
+
+    color: #0a201b;
+
+    letter-spacing: 1px;
+}

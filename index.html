@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land-unique-ID-system</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            background-color: #f6f6f6;
+        }
+
+        #logo {
+            height: 1.5cm;
+
+
+        }
+
+        .navbar {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            height: 1.5cm;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: larger;
+            
+
+        }
+
+        .links {
+
+            display: flex;
+            gap: 150px;
+            font-weight: 600;
+            font-size: larger;
+
+        }
+
+        .hero {
+            height: calc(100vh);
+            background-image: url(Images/background.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: left;
+            align-items: center;
+            margin: auto 0;
+            padding: 90px 90px 0;
+
+
+        }
+
+        .heading {
+            font-size: 400%;
+            font-style: oblique;
+            font-weight: 800;
+            color: rgb(17, 81, 38);
+
+        }
+
+        .subheading {
+            font-size: 200%;
+            font-style: italic;
+            color: rgb(46, 69, 24);
+
+
+        }
+
+        .hero-links {
+            font-size: 200%;
+            background-color: #1e3b26;
+            color: rgb(255, 248, 248);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .working {
+            height: calc(91.5vh);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        h2 {
+            font-size: 250%;
+            text-align: center;
+            color: #1e3b26;
+            font-style: oblique;
+            position: absolute;
+            left: 50px;
+            margin-bottom: 37%;
+
+
+            transform: translate(-10%);
+            font-size: 500%;
+
+
+        }
+
+        .arrow {
+            font-size: larger;
+            font-weight: 100%;
+        }
+
+        h3 {
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            align-items: center;
+        }
+
+        .button-work {
+            background-color: #1e3b26;
+            color: rgb(255, 248, 248);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            
+        }
+    </style>
+</head>
+<nav class="navbar">
+    <img id="logo" src="Images/logo.jpeg" alt="Logo">
+    <a style="text-decoration: none;" href="index.html">Home</a>
+    <a style="text-decoration: none;" href="login.html">Login</a>
+    <a style="text-decoration: none;" href="register.html">Register</a>
+</nav>
+
+
+
+<body>
+    <main>
+        <section>
+
+
+
+
+            <div class="hero">
+
+                <p class="heading">Give Your land a unique identity.</p>
+                <p class="subheading">Identify,manage and access essential information about your land through one
+                    unique land Identification
+                    Number.</p>
+                <a class="hero-links" href="register.html">Register Your Land</a>
+                <a class="hero-links" href="#how-it-works">Learn More</a>
+
+            </div>
+        </section>
+
+        <section>
+            <div id="how-it-works" class="working">
+                <h2>How It Works</h2>
+
+
+                <span class="button-work">
+                    <h3>1.Register</h3>
+                    <p>Create your landID account.</p>
+                </span>
+
+                <div class="arrow">↓</div>
+
+
+                <span class="button-work">
+                    <h3>2.Login</h3>
+                    <p>Securely access your account.</p>
+                </span>
+
+
+                <div class="arrow">↓</div>
+
+
+                <span class="button-work">
+                    <h3>3.Add your land</h3>
+                    <p>Enter basic information about your land.</p>
+                </span>
+
+                <div class="arrow">↓</div>
+
+                <span class="button-work">
+                    <h3>4.Get unique land ID</h3>
+                    <p>Receive a unique indentification number for your land.</p>
+                </span>
+
+                <div class="arrow">↓</div>
+
+                <span class="button-work">
+                    <h3> 5.View Your Land</h3>
+                    <p>Access your land details,location and future 3D view.</p>
+
+                </span>
+            </div>
+
+
+
+        </section>
+
+
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add New Land - LandID</title>
+
+    <link rel="stylesheet" href="add-land.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>LUID</h1>
+
+        <a href="dashboard.html">← Dashboard</a>
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <h2>Add New Land</h2>
+
+        <p class="subtitle">
+            Fill your land information.
+        </p>
+
+
+        <!-- Land Form -->
+        <form id="landForm">
+
+            <!-- Owner -->
+            <label for="ownerName">Land Owner Name</label>
+
+            <input type="text" id="ownerName" placeholder="Enter owner name" required>
+
+
+            <!-- Location -->
+            <label for="location">Location</label>
+
+            <input type="text" id="location" placeholder="Enter location" required>
+
+
+            <!-- State -->
+            <label for="state">State</label>
+
+            <select id="state" required>
+
+                <option value="">Select State</option>
+
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Goa">Goa</option>
+
+            </select>
+
+
+            <!-- District -->
+            <label for="district">District</label>
+
+            <select id="district" required>
+
+                <option value="">Select District</option>
+
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Surat">Surat</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Panaji">Panaji</option>
+
+            </select>
+
+
+            <!-- Area -->
+            <label for="area">Area</label>
+
+            <input type="text" id="area" placeholder="Example: 1200 sq.ft" required>
+
+
+            <!-- Land Type -->
+            <label for="landType">Land Type</label>
+
+            <select id="landType" required>
+
+                <option value="">Select Land Type</option>
+
+                <option value="Agricultural Land">
+                    Agricultural Land
+                </option>
+
+                <option value="Residential Land">
+                    Residential Land
+                </option>
+
+                <option value="Commercial Land">
+                    Commercial Land
+                </option>
+
+            </select>
+
+
+            <!-- Image -->
+            <label for="landImage">Upload Land Image</label>
+
+            <input type="file" id="landImage" accept="image/*">
+
+
+            <!-- Button -->
+            <button type="submit">
+                Register Land
+            </button>
+
+        </form>
+
+
+        <!-- Result -->
+        <div id="result"></div>
+
+    </main>
+
+
+    <script src="add-land.js"></script>
+
+</body>
+
+</html>

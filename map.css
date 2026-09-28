@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbeef9;
+    color: #1c0327;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 90px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 40px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.logo h1 {
+    color: #176044;
+    font-size: 40px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* 
+.header h2 {
+    font-size: 30px;
+} */
+
+.profile {
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 120%;
+}
+
+.profile span {
+    font-size: 28px;
+}
+
+
+/* LAYOUT */
+
+.layout {
+    display: flex;
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+    width: 250px;
+
+    min-height: calc(100vh - 90px);
+
+    background-color: #04033e;
+
+    padding: 30px 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 17px;
+
+    padding: 16px 20px;
+
+    margin-bottom: 8px;
+
+    border-radius: 10px;
+}
+
+.sidebar a.active {
+    background-color: #400e76;
+}
+
+.sidebar a:hover {
+    background-color: #400e76;
+}
+
+.sidebar .logout {
+    margin-top: 20px;
+}
+
+
+/* MAIN */
+
+.main {
+    flex: 1;
+    padding: 40px;
+}
+
+.main > h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-family:   sans-serif;
+}
+
+
+
+/* MAP */
+
+.map-container {
+    height: 430px;
+
+    background-color: #dfe9dc;
+
+    border: 1px solid #ccd8ce;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    margin-bottom: 30px;
+}
+
+.map-placeholder {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background-color: #e8f0e5;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.location-marker {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.map-placeholder h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.map-placeholder p {
+    font-size: 18px;
+    color: #023a26;
+}
+
+.map-placeholder .land-id {
+    margin-top: 12px;
+    color: #080330;
+    font-weight: bold;
+    font-size: 170%;
+}
+
+
+/* LAND INFORMATION */
+
+.land-info {
+    background-color: rgb(239, 240, 247);
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    border: 1px solid #dfe5e2;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid #e1e5e3;
+}
+
+.info-row:last-child {
+    border-bottom: none;
+}
+
+.info-row span {
+    color: #012e1f;
+}

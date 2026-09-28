@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #f6f6f6;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            font-style: oblique;
+            color: rgb(7, 25, 113);
+            font-size: 500%;
+            margin: 0;
+        }
+
+        form {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px 20px;
+            border-radius: 57px;
+            width: 500px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 28px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 11px;
+            box-sizing: border-box;
+        }
+
+        form {
+            padding: 60px 400px;
+            display: flex;
+            gap: 9px;
+            color: rgb(92, 7, 92);
+        }
+
+        label {
+            font-size: 200%;
+        }
+
+        .login {
+            background-color: #b8f6cb;
+            color: rgb(19, 4, 71);
+            padding: 10px 10px;
+            border-radius: 5px;
+            width: 20%;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 120%;
+            margin-top: 1px;
+            margin-left: 35%;
+            display: flex;
+            justify-content: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .question {
+            font-size: 145%;
+        }
+
+        .register {
+            background-color: #cedaf3;
+            color: black;
+            border-radius: 5px;
+            width: 30%;
+            text-decoration: none;
+            font-weight: 800;
+        }
+
+        .forget-password {
+            text-decoration: none;
+            font-size: 145%;
+            color: rgb(56, 2, 2);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Welcome back to LUID</h1>
+            <form action="">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"required> <br>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password"required><br>
+                <a class="forget-password" href="">Forget Password?</a><br>
+
+
+                <a class="login" href="dashboard.html">Login</a>
+                 <!-- <button typle="submit" class="login" >login</button> -->
+
+                <p class="question">Don't have an account?
+                    <a class="register" href="register.html">Register</a>
+                </p>
+
+
+
+
+
+
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
